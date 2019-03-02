@@ -1,0 +1,84 @@
+body{
+	font-family: Helvetica, sans-serif;
+	height: 100%;
+	min-height: 100%;
+}
+
+h1 {
+	text-align: center;
+}
+
+#myForm {
+	background-color: #DDD;
+	padding: 20px 0;
+}
+
+#myForm label {
+	padding-left: 20px;
+	color: 0;
+    font-size: 30px;
+}
+
+#myForm input {
+    font-size: 30px;
+}
+
+#myForm button {
+	background-color: #55D;
+    font-size: 30px;
+	color: white;
+	border: 2px solid white;
+	border-radius: 5%;
+}
+
+#myForm button:hover {
+	cursor: pointer;
+	background-color: white;
+	color: black;
+	border-color: lightgreen;
+}
+
+#list {
+	border: 2px solid black;
+	padding: 0;
+}
+
+#list li {
+	list-style: none;
+	padding: 20px 10px;
+	margin: 20px 20px 20px 20px;
+}
+
+#list li button {
+	height: 50px;
+	width: 80px;
+	color: white;
+	font-weight: bold;
+	border: none;
+}
+
+#list button:hover {
+	cursor: pointer;
+	background-color: white;
+	color: black;
+}
+
+#list .checkBtn{
+	background-color: #5D5;
+}
+
+#list .deleteBtn{
+	background-color: #D55;
+}
+
+#list .checkBtn:hover{
+	background-color: #5D5;
+}
+
+#list .deleteBtn:hover{
+	background-color: #D55;
+}
+
+.check {
+	text-decoration: line-through;
+}
